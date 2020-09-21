@@ -1,0 +1,6 @@
+note over browser:
+ When the user submits a new note the event handler is triggered.
+ The default POST is prevented.
+ The new note is added to the notes list and the notes are rendered.
+end notebrowser->server: POST new note information in json format
+server->browser: Server sends confirmation that a new note was created
